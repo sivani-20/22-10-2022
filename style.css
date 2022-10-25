@@ -19,3 +19,67 @@
 		.section{
 			padding: 6% 0% 0% 8%;
 		}
+.text{
+			display: flex;
+			justify-content: space-evenly;
+			font-size: 20px;
+			background-color: #f3f2f5;
+			padding: 0.6%;
+		}
+		.sec2{
+			font-family: poppins;
+			display: flex;
+			justify-content: space-between;
+			padding: 5% 0% 5% 8%;
+		}
+		.India{
+			font-size: 45px;
+			text-decoration: none;
+		}
+		.recharge{
+			font-size: 18px;
+			margin-bottom: 5%;
+		}
+		.Download-app{
+			background-color: black;
+			width: 59%;
+			padding: 1%;
+			border-radius: 25px;
+			text-align: center;
+			color:white;
+		}
+		.Download-app:hover{
+			background-color: white;
+			color: black;
+			
+		}
+		.icon{
+			margin-left: 4%;
+		}
+		.sec3{
+		background-color:skyblue;
+		padding:3% 8% 3% 8%;
+		}
+		.book{
+			display:flex;
+			justify-content:space-between;
+		}
+		.book a{
+				text-decoration:none;
+				color:white;
+		}
+		.sec4{
+			background-color:blue;
+			padding:3% 8% 3% 8%;
+		}
+		.Book{
+			display:flex;
+			justify-content:space-between;
+		}
+		.Book a{
+			text-decoration:none;
+			color:white;
+		}
+		.Fastest{
+			font-size:70%;
+		}
