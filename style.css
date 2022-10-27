@@ -43,17 +43,18 @@
 		.Download-app{
 			background-color: black;
 			width: 59%;
-			padding: 1%;
+			padding:3%;
 			border-radius: 25px;
 			text-align: center;
 			color:white;
+			margin-top: 5%;
 		}
 		.Download-app:hover{
 			background-color: white;
 			color: black;
 			
 		}
-		.icon{
+		.icon i{
 			margin-left: 4%;
 		}
 		.sec3{
@@ -72,14 +73,38 @@
 			background-color:blue;
 			padding:3% 8% 3% 8%;
 		}
-		.Book{
-			display:flex;
-			justify-content:space-between;
+		.sec5{
+			padding: 8%;
+			background-color:rgba(239,239,239,1);
+			font-family: poppins;
 		}
-		.Book a{
-			text-decoration:none;
-			color:white;
+		.child{
+			style="margin-top: 6%;display: flex;justify-content: space-between;padding: 9%;background-color: white; font-size: 25px;">
+		}
+		.head{
+			display: flex;
+			text-decoration: none;
+			color: black;
+		}
+		.head span{
+			margin-top: 5%;
 		}
 		.Fastest{
-			font-size:70%;
+			font-size:100%;
+			margin-bottom: 5%;
 		}
+		.paytm{
+			font-size: 17px;
+			margin-bottom: 5%;
+		}
+		.pay{
+			font-size: 50%;
+			margin-bottom: 5%;
+		}
+
+		@media(max-width):1366px{
+			.navigation a{
+				font-size: 14px;
+			}
+		}
+		
