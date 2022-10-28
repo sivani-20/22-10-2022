@@ -58,7 +58,7 @@
 			margin-left: 4%;
 		}
 		.sec3{
-		background-color:skyblue;
+		background-color:lightblue;
 		padding:3% 8% 3% 8%;
 		}
 		.book{
@@ -79,7 +79,12 @@
 			font-family: poppins;
 		}
 		.child{
-			style="margin-top: 6%;display: flex;justify-content: space-between;padding: 9%;background-color: white; font-size: 25px;">
+			margin-top:15%;
+			display: flex;
+			justify-content: space-between;
+			padding: 9%;
+			background-color: white;
+			 font-size: 30px;
 		}
 		.head{
 			display: flex;
@@ -89,22 +94,94 @@
 		.head span{
 			margin-top: 5%;
 		}
+		.wallet{
+			font-size: 10px;
+		}
 		.Fastest{
 			font-size:100%;
 			margin-bottom: 5%;
+			margin-left: 15%;
 		}
 		.paytm{
-			font-size: 17px;
-			margin-bottom: 5%;
+			font-size: 25px;
+			margin-top: 5%;
+			margin-left: 15%;
+		}
+		.transfer{
+			margin-top: 2%;
+			font-size: 10px;
 		}
 		.pay{
 			font-size: 50%;
 			margin-bottom: 5%;
 		}
-
-		@media(max-width):1366px{
-			.navigation a{
-				font-size: 14px;
-			}
+		.want{
+			font-size: 100%;
 		}
+		.button2{
+			border-radius: 15px;
+			color: white;
+			background-color: #0f4a8a;
+			width: 24%;
+			text-align: center;
+			padding: 2%;
+			margin-bottom: 10%;
+		}
+
+
+
+
+
+		@media (max-width: 390px){
+			.navigation a{
+				font-size: 4px;
+			}
+			.text{
+				font-size: 13px;
+			}
+			#signin img{
+				width: 2% !important;
+			}
+			.India{
+				font-size: 15px;
+			}
+			.recharge{
+				font-size: 7px;
+			}
+			.sec2img{
+				width: 15%;
+			}
+			.Download-app{
+				font-size: 6px;
+			}
+			.book{
+				flex-direction: column;
+				align-items: center;
+			}
+			.Wallet{
+				font-size: 8px;
+
+			}
+			.Fastest{
+				font-size: 10px;
+			}
+			.paytm{
+				font-size: 10px;
+			}
+			.Direct{
+				font-size: 20px;
+			}
+			.Indirect{
+				font-size: 10px;
+			}
+			.want{
+				font-size: 20px;
+			}
+			.postpaid{
+				font-size: 10px;
+			}
+
+		}
+		
+
 		
